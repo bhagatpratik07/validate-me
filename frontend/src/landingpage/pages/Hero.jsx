@@ -30,15 +30,6 @@ function Hero() {
           </p>
 
           <div className="input-form max-w-xl mx-auto w-full flex items-center justify-center lg:justify-start gap-x-1 lg:gap-x-5 mt-7">
-            {/* <input
-              type="text"
-              placeholder="Enter your email address"
-              className="py-2 px-5 text-black lg:py-3 placeholder:text-sm rounded-lg w-full focus:outline-none ring-1 ring-[#0A071B] focus:ring-2 focus:ring-[#0A071B]"
-            />
-
-            <button className="bg-[#304EE6] text-white w-1/3 hover:shadow-lg border border-transparent hover:drop-shadow transition duration-200 lg:w-1/3 font-semibold text-xs lg:text-base rounded-lg px-5 py-3">
-              Join Waitlist
-            </button> */}
             <div
               id="getWaitlistContainer"
               data-waitlist_id="13517"
@@ -56,11 +47,6 @@ function Hero() {
         </div>
       </div>
       <div className="flex items-center justify-center gap-5 p-10 max-w-6xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
-        {/* {cards.map((card) => (
-          <div key={Math.random() + card.title}>
-            <Card title={card.title} description={card.text} />
-          </div>
-        ))} */}
         <img src={Products} height="350" width="350" className="rounded-lg" />
         <img src={Ratings} height="350" width="350" className="rounded-lg" />
         <img src={Money} height="350" width="350" className="rounded-lg" />

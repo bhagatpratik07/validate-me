@@ -30,13 +30,13 @@ function About() {
     },
   ];
   return (
-    <section className="benefit__section relative overflow-hidden">
+    <section className="relative overflow-hidden">
       <div className="max-w-5xl mx-auto py-10 grid md:grid-cols-2 gap-y-10 md:gap-y-10 lg:py-14 px-10">
         <div className="hidden lg:flex absolute top-10 -right-10 overflow-hidden"></div>
         {cards.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col gap-y-5 items-start justify-center"
+            className="flex flex-col gap-y-4 items-start justify-center"
           >
             <div>
               <img src={item.image} alt="" />
