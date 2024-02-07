@@ -1,10 +1,15 @@
 import "./App.css";
+import Footer from "./landingpage/components/Footer";
+import About from "./landingpage/pages/About";
+import Hero from "./landingpage/pages/Hero";
 
 function App() {
   return (
     <>
       <div>
-        <h1 className="">heyy</h1>
+        <Hero />
+        <About />
+        <Footer />
       </div>
     </>
   );
