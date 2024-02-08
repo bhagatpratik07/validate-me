@@ -46,7 +46,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-5 p-10 max-w-6xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
+      <div className="lg:flex items-center justify-center gap-5 p-10 max-w-6xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
         <img src={Products} height="350" width="350" className="rounded-lg" />
         <img src={Ratings} height="350" width="350" className="rounded-lg" />
         <img src={Money} height="350" width="350" className="rounded-lg" />
