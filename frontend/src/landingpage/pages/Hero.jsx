@@ -24,7 +24,7 @@ function Hero() {
             </a>
           </p>
           <h1 className="text-3xl text-[#a9ff68] md:text-5xl xl:text-[60px] leading-[1.2] md:max-w-xl mx-auto text-center lg:max-w-4xl font-semibold">
-            Validate your SaaS ideas and get potential customers
+            Validate your SaaS ideas with user feedback
           </h1>
           <p className="text-sm lg:text-lg max-w-[16rem] mx-auto md:max-w-xl md:mx-auto lg:max-w-2xl text-[#828282] text-center">
             Validate, Launch, and Grow Your Product in One Platform.
@@ -47,6 +47,11 @@ function Hero() {
           </div>
         </div>
       </div>
+      <h1 className="flex justify-center align-center text-3xl font-bold">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-700 from-sky-300">
+          How it works
+        </span>
+      </h1>
       <div className="lg:flex items-center justify-center gap-5 p-10 max-w-6xl mx-auto rounded-none lg:rounded-2xl overflow-hidden">
         <img src={Products} height="350" width="350" className="rounded-lg" />
         <img src={Ratings} height="350" width="350" className="rounded-lg" />
