@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { FaXTwitter } from "react-icons/fa6";
 import Products from "/1.png";
 import Money from "/2.png";
@@ -51,6 +52,7 @@ function Hero() {
         <img src={Ratings} height="350" width="350" className="rounded-lg" />
         <img src={Money} height="350" width="350" className="rounded-lg" />
       </div>
+      <Footer />
     </div>
   );
 }
