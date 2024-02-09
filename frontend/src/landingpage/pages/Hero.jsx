@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div className="hero bg-[#1a1a1a] text-[#ffffff]">
       <Navbar />
-      <div className="main-hero-section max-w-5xl flex flex-col gap-y-2 items-center justify-center mx-auto py-14 px-10 md:px-10 xl:px-0">
+      <div className="max-w-5xl flex flex-col gap-y-2 items-center justify-center mx-auto py-14 px-10 md:px-10 xl:px-0">
         <div className="hero-content lg:px-5 flex flex-col gap-y-5">
           <p className="bg-black mx-auto text-white font-semibold text-sm flex items-center justify-center gap-2 rounded-lg p-3 ">
             <FaXTwitter size={20} />
@@ -30,7 +30,7 @@ function Hero() {
             Validate, Launch, and Grow Your Product in One Platform.
           </p>
 
-          <div className="input-form max-w-xl mx-auto w-full flex items-center justify-center lg:justify-start gap-x-1 lg:gap-x-5 mt-7">
+          <div className=" max-w-xl mx-auto w-full flex items-center justify-center lg:justify-start gap-x-1 lg:gap-x-5 mt-7">
             <div
               id="getWaitlistContainer"
               data-waitlist_id="13517"
